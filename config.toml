@@ -7,10 +7,22 @@ author = "Sebastian Stork"
 [languages.en]
 title = "sstork.dev"
 generate_feeds = true
-taxonomies = [{name = "tags", feed = true, paginate_by = 10}]
+taxonomies = [
+  { name = "tags", feed = true, paginate_by = 10 },
+]
 
 [markdown]
 highlight_code = true
 highlight_theme = "material-dark"
 render_emoji = true
 bottom_footnotes = true
+
+[extra]
+header_menu_name = "menu_name"
+
+[extra.menus]
+menu_name = [
+  { url = "$BASE_URL/posts/", name = "Posts" },
+  { url = "$BASE_URL/tags/", name = "Tags" },
+  { url = "$BASE_URL/about/", name = "About" },
+]
