@@ -1,5 +1,12 @@
-# The URL the site will be built for
 base_url = "https://sstork.dev"
+title = "sstork.dev"
+description = ""
+theme = "linkita"
+default_language = "en"
+author = "Sebastian Stork"
+
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

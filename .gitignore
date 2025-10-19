@@ -1,5 +1,6 @@
 # Zola
 themes/
+public/
 
 # Nix
 .direnv/
