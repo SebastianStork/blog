@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "linkita": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1760881537,
+        "narHash": "sha256-Xqj7oL4hs/FKqB1vdW4JOSxT3e+BF4gB6tBSvFDL+zw=",
+        "ref": "refs/heads/linkita",
+        "rev": "84758baf27fb2ca6ca6194ba1d81b997f698b78e",
+        "revCount": 243,
+        "type": "git",
+        "url": "https://codeberg.org/salif/linkita.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://codeberg.org/salif/linkita.git"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1760524057,
@@ -18,6 +34,7 @@
     },
     "root": {
       "inputs": {
+        "linkita": "linkita",
         "nixpkgs": "nixpkgs"
       }
     }
