@@ -1,0 +1,6 @@
+# Zola
+themes/
+
+# Nix
+.direnv/
+result
