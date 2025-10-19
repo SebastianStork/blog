@@ -1,7 +1,8 @@
 +++
-title = "About me"
-description = ""
+title = "About"
 path = "about"
 +++
 
-## Hello, world!
+## About me
+
+## About this site
