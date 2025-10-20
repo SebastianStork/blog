@@ -1,8 +1,4 @@
 +++
-title = "Archive"
-template = "archive.html"
+render = false
 transparent = true
-
-[extra]
-date_format = "%m-%d"
 +++
