@@ -1,11 +1,8 @@
 base_url = "https://sstork.dev"
 theme = "linkita"
 
-default_language = "en"
-author = "Sebastian Stork"
-
-[languages.en]
 title = "sstork.dev"
+author = "Sebastian Stork"
 generate_feeds = true
 taxonomies = [
   { name = "tags", feed = true, paginate_by = 10 },
