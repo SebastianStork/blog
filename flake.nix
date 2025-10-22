@@ -8,7 +8,7 @@
     };
 
     linkita = {
-      url = "github:SebastianStork/linkita";
+      url = "github:SebastianStork/kita";
       flake = false;
     };
   };
@@ -30,7 +30,7 @@
 
         shellHook = ''
           mkdir -p themes
-          ln -snf "${linkita}" themes/linkita
+          ln -snf "${linkita}" themes/kita
         '';
       };
 

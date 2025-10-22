@@ -3,16 +3,16 @@
     "linkita": {
       "flake": false,
       "locked": {
-        "lastModified": 1761138491,
-        "narHash": "sha256-u+oSvkk8ylbT4xdBCLYl4HuV0jN59IH28YQGt8FMBtU=",
+        "lastModified": 1761155460,
+        "narHash": "sha256-A+UPcSINYsCG95b6RLu1cvcP9SpxI8CV4Id1IB3WocA=",
         "owner": "SebastianStork",
-        "repo": "linkita",
-        "rev": "6a3159e6477eb07646dda32ddc5be974298d5a48",
+        "repo": "kita",
+        "rev": "ded1aaeeb93600bf9175b9d3578624b59fec7120",
         "type": "github"
       },
       "original": {
         "owner": "SebastianStork",
-        "repo": "linkita",
+        "repo": "kita",
         "type": "github"
       }
     },
