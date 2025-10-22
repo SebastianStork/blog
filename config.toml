@@ -37,5 +37,9 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/sebastian-stork"
 
 [[extra.profile.social]]
+name = "email"
+url = "mailto:sebastian.stork@pm.me"
+
+[[extra.profile.social]]
 name = "rss"
 url = "$BASE_URL/atom.xml"
