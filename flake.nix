@@ -8,7 +8,7 @@
     };
 
     linkita = {
-      url = "git+https://codeberg.org/salif/linkita.git";
+      url = "github:SebastianStork/linkita";
       flake = false;
     };
   };

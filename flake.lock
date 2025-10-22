@@ -3,17 +3,17 @@
     "linkita": {
       "flake": false,
       "locked": {
-        "lastModified": 1760881537,
-        "narHash": "sha256-Xqj7oL4hs/FKqB1vdW4JOSxT3e+BF4gB6tBSvFDL+zw=",
-        "ref": "refs/heads/linkita",
-        "rev": "84758baf27fb2ca6ca6194ba1d81b997f698b78e",
-        "revCount": 243,
-        "type": "git",
-        "url": "https://codeberg.org/salif/linkita.git"
+        "lastModified": 1761138491,
+        "narHash": "sha256-u+oSvkk8ylbT4xdBCLYl4HuV0jN59IH28YQGt8FMBtU=",
+        "owner": "SebastianStork",
+        "repo": "linkita",
+        "rev": "6a3159e6477eb07646dda32ddc5be974298d5a48",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "https://codeberg.org/salif/linkita.git"
+        "owner": "SebastianStork",
+        "repo": "linkita",
+        "type": "github"
       }
     },
     "nixpkgs": {
