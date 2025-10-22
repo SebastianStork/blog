@@ -22,3 +22,14 @@ menu_name = [
   { url = "$BASE_URL/tags/", name = "Tags" },
   { url = "$BASE_URL/about/", name = "About" },
 ]
+
+[extra.profiles."Sebastian Stork"]
+avatar_url = "images/stork-avatar.jpg"
+name = "Sebastian Stork"
+bio = "CS Student & Nix enthusiast"
+social = [
+  { name = "github", url = "https://github.com/SebastianStork" },
+  { name = "forgejo", url = "https://git.sstork.dev/SebastianStork" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/sebastian-stork" },
+  { name = "rss", url = "$BASE_URL/atom.xml" },
+]
