@@ -7,7 +7,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    linkita = {
+    kita = {
       url = "github:SebastianStork/kita";
       flake = false;
     };
@@ -17,7 +17,7 @@
     {
       nixpkgs,
       treefmt,
-      linkita,
+      kita,
       ...
     }:
     let
@@ -25,12 +25,25 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
+      packages.${system}.default = pkgs.stdenv.mkDerivation {
+        name = "zola-site";
+        src = ./.;
+        nativeBuildInputs = [ pkgs.zola ];
+        buildPhase = ''
+          cp -r $src/* .
+          mkdir --parents ./themes/kita
+          cp -r ${kita}/* ./themes/kita/
+          zola build --output-dir $out
+        '';
+        doCheck = false;
+      };
+
       devShells.${system}.default = pkgs.mkShell {
         packages = [ pkgs.zola ];
 
         shellHook = ''
           mkdir -p themes
-          ln -snf "${linkita}" themes/kita
+          ln -snf "${kita}" themes/kita
         '';
       };
 

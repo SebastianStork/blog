@@ -1,6 +1,6 @@
 {
   "nodes": {
-    "linkita": {
+    "kita": {
       "flake": false,
       "locked": {
         "lastModified": 1761155460,
@@ -34,7 +34,7 @@
     },
     "root": {
       "inputs": {
-        "linkita": "linkita",
+        "kita": "kita",
         "nixpkgs": "nixpkgs",
         "treefmt": "treefmt"
       }
