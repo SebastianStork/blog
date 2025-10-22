@@ -14,6 +14,11 @@ serve:
 check:
     zola check --drafts
 
+[group('zola')]
+update-theme:
+    nix flake update linkita
+    nix develop --command zsh
+
 [group('nix')]
 update:
-    nix flake update --commit-lock-file
+    nix flake update nixpkgs treefmt --commit-lock-file
