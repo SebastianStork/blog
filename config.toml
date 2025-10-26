@@ -20,7 +20,7 @@ name = "About"
 url = "$BASE_URL/about/"
 
 [extra.profile]
-avatar_url = "images/stork.svg"
+avatar_url = "images/white-stork.jpg"
 name = "Sebastian Stork"
 bio = "CS Student & Nix enthusiast"
 
