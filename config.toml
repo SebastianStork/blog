@@ -29,10 +29,6 @@ name = "github"
 url = "https://github.com/SebastianStork"
 
 [[extra.profile.social]]
-name = "forgejo"
-url = "https://git.sstork.dev/SebastianStork"
-
-[[extra.profile.social]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/sebastian-stork"
 
