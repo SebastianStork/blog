@@ -26,13 +26,13 @@
     in
     {
       packages.${system}.default = pkgs.stdenv.mkDerivation {
-        name = "zola-site";
+        name = "blog";
         src = ./.;
         nativeBuildInputs = [ pkgs.zola ];
         buildPhase = ''
           cp -r $src/* .
-          mkdir --parents ./themes/kita
-          cp -r ${kita}/* ./themes/kita/
+          mkdir -p themes/kita
+          cp -r ${kita}/* themes/kita/
           zola build --output-dir $out
         '';
         doCheck = false;
@@ -40,7 +40,6 @@
 
       devShells.${system}.default = pkgs.mkShell {
         packages = [ pkgs.zola ];
-
         shellHook = ''
           mkdir -p themes
           ln -snf "${kita}" themes/kita
